@@ -1,13 +1,15 @@
 import React from "react";
 import "./Register.css";
 import icon from "../../assets/image/Logo.png";
+import { Link } from "react-router-dom";
+
 const Register = () => {
   return (
     <section className="signup_section">
       <div className="signup_container">
-        <a href="#">
+        <Link>
           <img src={icon} alt="" />
-        </a>
+        </Link>
         <div className="signup_form">
           <h3>Sign up</h3>
           <form>
